@@ -70,7 +70,7 @@ if st.button("💖 Haz clic aquí para leer tu mensaje"):
     for caracter in texto:
         texto_animado += caracter
         placeholder.markdown(f"<div class='carta'>{texto_animado}</div>", unsafe_allow_html=True)
-        time.sleep(0.08)
+        time.sleep(0.06)
     
     # NUEVO: Inyección de HTML para generar la lluvia de corazones en posiciones aleatorias
     corazones_html = "".join([
