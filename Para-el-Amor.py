@@ -46,7 +46,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.markdown("<h1 class='titulo'>Para mi amor bonito (:flor:) 🌼(:sun:)✨</h1>", unsafe_allow_html=True)
+st.markdown("<h1 class='titulo'>Para mi amor bonito (:flor:) 🌼:sunny:✨</h1>", unsafe_allow_html=True)
 st.write("")
 
 # Texto de la carta
