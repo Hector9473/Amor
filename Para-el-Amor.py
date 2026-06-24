@@ -54,4 +54,4 @@ if st.button("💖 Haz clic aquí para leer tu mensaje"):
         time.sleep(0.05) # Velocidad de la escritura
     
     # Efecto de globos al terminar
-    st.balloons()
+    st.snowflake()
