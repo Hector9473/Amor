@@ -46,20 +46,18 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.markdown("<h1 class='titulo'>Para mi amor bonito (:flor:) 🌼☀️✨</h1>", unsafe_allow_html=True)
+st.markdown("<h1 class='titulo'>Para mi amor bonito (:flor:) 🌼☀️👱‍♀️</h1>", unsafe_allow_html=True)
 st.write("")
 
 # Texto de la carta
-texto = """Mi amorcito bello,
+texto = """Mi prometida hermosa 💍,
 
 Compartir mis dias contigo ha sido lo mas hermoso de mi vida
 los viajes, aventuras, rutas y salidas ahora son especiales y perfectas 
 porque estas a mi lado.
-🏖️✈️⛰️🏍️
-
+🏖️✈️⛰️🏍️🌄
 Me siento feliz y afortunado de tener un amor tan bonito, 
 que Dios nos bendiga siempre 🙏
-
 Gracias por regalarme tus dias, tu amor, tus abrazos, tus besos.
 Te amo hoy, mañana y siempre. ♥"""
 
@@ -72,7 +70,7 @@ if st.button("💖 Haz clic aquí para leer tu mensaje"):
     for caracter in texto:
         texto_animado += caracter
         placeholder.markdown(f"<div class='carta'>{texto_animado}</div>", unsafe_allow_html=True)
-        time.sleep(0.05)
+        time.sleep(0.08)
     
     # NUEVO: Inyección de HTML para generar la lluvia de corazones en posiciones aleatorias
     corazones_html = "".join([
