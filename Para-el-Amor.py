@@ -4,7 +4,7 @@ import streamlit as st
 import time
 
 # Configuración de la página con temática romántica
-st.set_page_config(page_title="Un mensaje para ti ♥", page_icon="💖", layout="centered")
+st.set_page_config(page_title="Un mensaje el amor de mi vida ♥", page_icon="💖", layout="centered")
 
 # Estilos personalizados para fondo rosa, texto legible y animación de corazones
 st.markdown("""
@@ -46,16 +46,21 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.markdown("<h1 class='titulo'>Para la persona más especial ✨</h1>", unsafe_allow_html=True)
+st.markdown("<h1 class='titulo'>Para mi amor bonito (:flor:) 🌼(:sun:)✨</h1>", unsafe_allow_html=True)
 st.write("")
 
 # Texto de la carta
-texto = """Mi amor,
+texto = """Mi amorcito bello,
 
-Cada día a tu lado es una aventura maravillosa.
-Eres mi inspiración, mi sol y mi persona favorita en el mundo.
+Compartir mis dias contigo ha sido lo mas hermoso de mi vida
+los viajes, aventuras, rutas y salidas ahora son especiales y perfectas 
+porque estas a mi lado.
 
-Gracias por regalarme tus sonrisas y llenar mi vida de magia.
+Me siento feliz y afortunado de tener un amor tan bonito, 
+que Dios nos bendiga siempre 🙏
+
+
+Gracias por regalarme tus dias, tu amor, tus abrazos, tus besos.
 Te amo hoy, mañana y siempre. ♥"""
 
 # Botón para iniciar la animación
